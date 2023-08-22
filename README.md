@@ -107,7 +107,6 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 │   │   └── tokenizer_word_index.npy
 │   └── train
 │       └── train.csv
-│
 ├── images                     # Directory for sentiment image
 │   ├── app_Sentiment_1.jpg    # web app screenshot 1
 │   └── app_Sentiment_2.jpg    # web app screenshot 2
@@ -131,7 +130,7 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 
 ### Data Collection and Preprocessing <a name="data-collection-and-preprocessing"></a>
 
-1. **Data Collection:** Gather a dataset from [Kaggle](https://www.kaggle.com/competitions/tweet-sentiment-extraction) containing positive, negative, and neutral sentiment-labeled text.
+1. **Data Collection:** Gather a dataset from [Kaggle](https://www.kaggle.com/competitions/tweet-sentiment-extraction) containing positive, negative, and neutral sentiment-labeled text. Additionally, download Stanford's GloVe 100d word embeddings from [Kaggle](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt) and save the file named `glove.6B.100d.txt` to the directory `../data/glove/glove.6B.100d.txt`.
 
 2. **Data Splitting:** The dataset `(df)` is split into three parts: `training`, `validation`, and test sets using `train_test_split`. The training set `(train_df)` contains 80% of the data, while the validation set `(val_df)` and test set `(test_df)` each contain 10% of the data.
 
@@ -150,6 +149,8 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
    Each of these models offers a unique architecture for sentiment analysis, contributing to a comprehensive evaluation of their performance.
 
 4. **Training and Evaluation:** All models are trained using the Adam optimizer and the sparse categorical cross-entropy loss function. The training process includes early stopping with a patience of 10 epochs to monitor validation accuracy and restore the best weights. ModelCheckpoint is used to save the best-performing model during training based on validation accuracy.
+
+### Displaying Model Summary and Architecture <a name="model-summary-and-architecture"></a>
 
 5. **Displaying Model Summary and Architecture:** For each model, both the model summary and architecture diagram are displayed. The model architecture diagrams are saved as images in the `../models/glove_trained/` directory.
 
@@ -188,7 +189,7 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 - Kaleido
 
 
-## Usage <a name="Usage"></a>
+## Usage <a name="usage"></a>
 
 1. Clone this repository:
 ```bash
@@ -206,12 +207,18 @@ Sentiment_testing\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the Streamlit app:
+
+5. Run the `main_GloVe.py` script in `src` to train deep learning models:
+```bash
+python src/main_GloVe.py
+```
+
+6. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
 
-6. Enter text in the provided text area and click the "Classify Sentiment" button to see the sentiment prediction and scores.
+7. Enter text in the provided text area, then select from dropdown box "Model" and then click the "Classify Sentiment" button to see the sentiment prediction and scores.
 
 
 ## Screenshots <a name="screenshots"></a>
