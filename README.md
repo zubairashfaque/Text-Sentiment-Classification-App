@@ -263,7 +263,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements <a name="acknowledgements"></a>
 
-- The sentiment analysis algorithm is based on the Naïve Bayes approach.
+- The sentiment analysis algorithm is based on the Deep Learning approach.
 - Streamlit is used for creating the user interface.
 - NLTK is used for text preprocessing.
 
