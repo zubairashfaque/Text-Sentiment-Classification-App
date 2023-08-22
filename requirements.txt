@@ -3,7 +3,6 @@ pandas
 streamlit
 nltk
 plotly
-sklearn
 scikit-learn
 tensorflow
 ipython
