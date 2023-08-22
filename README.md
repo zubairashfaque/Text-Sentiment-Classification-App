@@ -1,4 +1,5 @@
-## Sentiment Analysis With Naive Bayes
+## Text Sentiment Classification With Deep Learning Models
+
 ![Python](https://img.shields.io/badge/Python-v3.x-green.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-v1.23.0-red.svg) ![NLTK](https://img.shields.io/badge/NLTK-v3.6.7-orange.svg) ![Pandas](https://img.shields.io/badge/Pandas-v2.0-blue.svg) ![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.13.0-orange.svg)
 
 <p align="center">
