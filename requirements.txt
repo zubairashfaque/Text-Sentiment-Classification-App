@@ -1,0 +1,12 @@
+wheel
+pandas
+streamlit
+nltk
+plotly
+sklearn
+scikit-learn
+tensorflow
+ipython
+graphviz
+pydot
+kaleido
