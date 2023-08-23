@@ -1,4 +1,7 @@
 # Import necessary libraries
+import pydot
+import graphviz
+
 import streamlit as st
 import base64
 from PIL import Image
