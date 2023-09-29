@@ -154,7 +154,9 @@ def main():
 
         # Resize the image for display
         image_size = (100, 100)
-        resized_image = sentiment_image.resize(image_size, Image.ANTIALIAS)
+        #resized_image = sentiment_image.resize(image_size, Image.ANTIALIAS)
+        resized_image = sentiment_image.resize(image_size, Image.BILINEAR)
+
 
         # Convert the image to base64
         buffered = BytesIO()
