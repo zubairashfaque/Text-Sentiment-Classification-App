@@ -10,3 +10,4 @@ graphviz
 pydot
 kaleido
 pydotplus
+apt-get install graphviz
