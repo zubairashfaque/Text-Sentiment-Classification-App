@@ -1,7 +1,7 @@
 # Import necessary libraries
 import pydot
 import graphviz
-
+from tensorflow.keras.utils import plot_model
 import streamlit as st
 import base64
 from PIL import Image
