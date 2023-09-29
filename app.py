@@ -13,7 +13,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from io import BytesIO
 import pandas as pd
 from contextlib import redirect_stdout
-!apt-get install graphviz
+
 st.set_page_config(page_title='Sentiment Analysis', page_icon='😃', layout='wide', initial_sidebar_state='auto')
 # Load max_seq_length from file
 max_seq_length_path = './data/glove/max_seq_length.txt'
