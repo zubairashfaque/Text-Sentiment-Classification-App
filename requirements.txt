@@ -10,4 +10,7 @@ graphviz
 pydot
 kaleido
 pydotplus
-apt-get install graphviz
+plotly
+streamlit_tags
+streamlit_agraph
+pygraphviz 
