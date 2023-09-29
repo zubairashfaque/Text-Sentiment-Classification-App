@@ -14,6 +14,7 @@ from io import BytesIO
 import pandas as pd
 from contextlib import redirect_stdout
 
+st.set_page_config(page_title='Sentiment Analysis', page_icon='😃', layout='wide', initial_sidebar_state='auto')
 # Load max_seq_length from file
 max_seq_length_path = './data/glove/max_seq_length.txt'
 with open(max_seq_length_path, 'r') as f:
