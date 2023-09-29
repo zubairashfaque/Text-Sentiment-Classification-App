@@ -9,3 +9,4 @@ ipython
 graphviz
 pydot
 kaleido
+pydotplus
