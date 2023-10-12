@@ -27,21 +27,37 @@
 7. [Steps](#steps)
    
     5.1 [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+   
     5.2 [Model Training](#model-training)
+
     5.3 [Displaying Model Summary and Architecture](#model-summary-and-architecture)
+
     5.4 [Plotting Training and Validation Metrics](#plotting-training-and-validation-metrics)
+
     5.5 [Saving Best Model](#saving-best-model)
+
     5.6 [Creating Streamlit App Layout](#creating-streamlit-app-layout)
+
     5.7 [Running the App](#running-the-app)
+
     5.8 [Interact with the App](#interact-with-the-app)
+   
 9. [Requirements](#requirements)
+
 10. [Usage](#usage)
+
 11. [Screenshots](#screenshots)
+
 12. [Notebook Structure](#notebook-structure)
+    
      9.1 [Running the Notebook](#running-the-notebook)
+
      9.2 [Results and Visualizations](#results-and-visualizations)
+
 13. [License](#license)
+
 14. [Acknowledgements](#acknowledgements)
+
 15. [Contact Information](#contact-information)
 
 ## Introduction <a name="introduction"></a>
