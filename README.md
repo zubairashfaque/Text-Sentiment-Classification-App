@@ -11,14 +11,18 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
+   
     1.1 [Project Description](#description)
     1.2 [Project Motivation](#motivation)
+   
 3. [Project Overview](#project-overview)
     2.1 [Overview of the Dataset](#dataset-overview)
     2.2 [Dataset Problem Statement](#problem-statement)
-4. [Features](#features)
-5. [Project Directory Structure](#directory-structure)
-6. [Steps](#steps)
+
+5. [Features](#features)
+6. [Project Directory Structure](#directory-structure)
+7. [Steps](#steps)
+   
     5.1 [Data Collection and Preprocessing](#data-collection-and-preprocessing)
     5.2 [Model Training](#model-training)
     5.3 [Displaying Model Summary and Architecture](#model-summary-and-architecture)
@@ -27,15 +31,15 @@
     5.6 [Creating Streamlit App Layout](#creating-streamlit-app-layout)
     5.7 [Running the App](#running-the-app)
     5.8 [Interact with the App](#interact-with-the-app)
-7. [Requirements](#requirements)
-8. [Usage](#usage)
-9. [Screenshots](#screenshots)
-10. [Notebook Structure](#notebook-structure)
+9. [Requirements](#requirements)
+10. [Usage](#usage)
+11. [Screenshots](#screenshots)
+12. [Notebook Structure](#notebook-structure)
      9.1 [Running the Notebook](#running-the-notebook)
      9.2 [Results and Visualizations](#results-and-visualizations)
-11. [License](#license)
-12. [Acknowledgements](#acknowledgements)
-13. [Contact Information](#contact-information)
+13. [License](#license)
+14. [Acknowledgements](#acknowledgements)
+15. [Contact Information](#contact-information)
 
 ## Introduction <a name="introduction"></a>
 
